@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+.form-group{
+  text-align: center !important;
+}
+
+fieldset{
+  margin: 0px 300px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.XbuT{
+  color: red;
+  border: none;
+  background: none;
+  font-size: 20px;
+}
